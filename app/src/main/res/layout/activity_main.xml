@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.bwie.main.zk1_lian02.activity.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/fram_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9" />
+
+    <RadioGroup
+        android:id="@+id/rap"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rap1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="首页"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:button="@null"/>
+
+        <RadioButton
+            android:id="@+id/rap2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="购物车"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:button="@null"/>
+
+        <RadioButton
+            android:id="@+id/rap3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="附近"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:button="@null"/>
+
+        <RadioButton
+            android:id="@+id/rap4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="我的"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:button="@null"/>
+
+    </RadioGroup>
+
+</LinearLayout>
